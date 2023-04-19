@@ -52,6 +52,7 @@
 		04993AFF29F00854005D5E16 /* akumina-ios-sampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "akumina-ios-sampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04993B0329F00854005D5E16 /* akumina_ios_sampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = akumina_ios_sampleUITests.swift; sourceTree = "<group>"; };
 		04993B0529F00854005D5E16 /* akumina_ios_sampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = akumina_ios_sampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		04993B1229F00BB1005D5E16 /* akumina-ios-sample.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = "akumina-ios-sample.entitlements"; sourceTree = "<group>"; };
 		0B2316E0DB00019A6F85772C /* Pods-akumina-ios-sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-akumina-ios-sample.release.xcconfig"; path = "Target Support Files/Pods-akumina-ios-sample/Pods-akumina-ios-sample.release.xcconfig"; sourceTree = "<group>"; };
 		1D3AE6E130451293573E2D17 /* Pods-akumina-ios-sample-akumina-ios-sampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-akumina-ios-sample-akumina-ios-sampleUITests.release.xcconfig"; path = "Target Support Files/Pods-akumina-ios-sample-akumina-ios-sampleUITests/Pods-akumina-ios-sample-akumina-ios-sampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		636465BD9C467E7E01A6EB5E /* Pods-akumina-ios-sampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-akumina-ios-sampleTests.release.xcconfig"; path = "Target Support Files/Pods-akumina-ios-sampleTests/Pods-akumina-ios-sampleTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -116,6 +117,7 @@
 		04993AE129F00852005D5E16 /* akumina-ios-sample */ = {
 			isa = PBXGroup;
 			children = (
+				04993B1229F00BB1005D5E16 /* akumina-ios-sample.entitlements */,
 				04993AE229F00852005D5E16 /* AppDelegate.swift */,
 				04993AE429F00852005D5E16 /* SceneDelegate.swift */,
 				04993AE629F00852005D5E16 /* ViewController.swift */,
@@ -154,7 +156,6 @@
 				E5E89E3E0C448E684D03283C /* Pods-akumina-ios-sampleTests.debug.xcconfig */,
 				636465BD9C467E7E01A6EB5E /* Pods-akumina-ios-sampleTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
