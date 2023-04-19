@@ -1,0 +1,764 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04993AE329F00852005D5E16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04993AE229F00852005D5E16 /* AppDelegate.swift */; };
+		04993AE529F00852005D5E16 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04993AE429F00852005D5E16 /* SceneDelegate.swift */; };
+		04993AE729F00852005D5E16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04993AE629F00852005D5E16 /* ViewController.swift */; };
+		04993AEA29F00852005D5E16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04993AE829F00852005D5E16 /* Main.storyboard */; };
+		04993AEC29F00854005D5E16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04993AEB29F00854005D5E16 /* Assets.xcassets */; };
+		04993AEF29F00854005D5E16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04993AED29F00854005D5E16 /* LaunchScreen.storyboard */; };
+		04993AFA29F00854005D5E16 /* akumina_ios_sampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04993AF929F00854005D5E16 /* akumina_ios_sampleTests.swift */; };
+		04993B0429F00854005D5E16 /* akumina_ios_sampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04993B0329F00854005D5E16 /* akumina_ios_sampleUITests.swift */; };
+		04993B0629F00854005D5E16 /* akumina_ios_sampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04993B0529F00854005D5E16 /* akumina_ios_sampleUITestsLaunchTests.swift */; };
+		50E15C337691ECD9D8256427 /* Pods_akumina_ios_sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDF40C91542A18AAE761E4DF /* Pods_akumina_ios_sample.framework */; };
+		59CB03008E58ADFE1462964C /* Pods_akumina_ios_sample_akumina_ios_sampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA99B8E9DACA6B0FDC10957F /* Pods_akumina_ios_sample_akumina_ios_sampleUITests.framework */; };
+		EA5CEDE65CE6F5EE0A56A2FC /* Pods_akumina_ios_sampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFEFA9E4F882732E46726353 /* Pods_akumina_ios_sampleTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04993AF629F00854005D5E16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04993AD729F00852005D5E16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04993ADE29F00852005D5E16;
+			remoteInfo = "akumina-ios-sample";
+		};
+		04993B0029F00854005D5E16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04993AD729F00852005D5E16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04993ADE29F00852005D5E16;
+			remoteInfo = "akumina-ios-sample";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04993ADF29F00852005D5E16 /* akumina-ios-sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "akumina-ios-sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04993AE229F00852005D5E16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04993AE429F00852005D5E16 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		04993AE629F00852005D5E16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04993AE929F00852005D5E16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04993AEB29F00854005D5E16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04993AEE29F00854005D5E16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04993AF029F00854005D5E16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04993AF529F00854005D5E16 /* akumina-ios-sampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "akumina-ios-sampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04993AF929F00854005D5E16 /* akumina_ios_sampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = akumina_ios_sampleTests.swift; sourceTree = "<group>"; };
+		04993AFF29F00854005D5E16 /* akumina-ios-sampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "akumina-ios-sampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04993B0329F00854005D5E16 /* akumina_ios_sampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = akumina_ios_sampleUITests.swift; sourceTree = "<group>"; };
+		04993B0529F00854005D5E16 /* akumina_ios_sampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = akumina_ios_sampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0B2316E0DB00019A6F85772C /* Pods-akumina-ios-sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-akumina-ios-sample.release.xcconfig"; path = "Target Support Files/Pods-akumina-ios-sample/Pods-akumina-ios-sample.release.xcconfig"; sourceTree = "<group>"; };
+		1D3AE6E130451293573E2D17 /* Pods-akumina-ios-sample-akumina-ios-sampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-akumina-ios-sample-akumina-ios-sampleUITests.release.xcconfig"; path = "Target Support Files/Pods-akumina-ios-sample-akumina-ios-sampleUITests/Pods-akumina-ios-sample-akumina-ios-sampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		636465BD9C467E7E01A6EB5E /* Pods-akumina-ios-sampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-akumina-ios-sampleTests.release.xcconfig"; path = "Target Support Files/Pods-akumina-ios-sampleTests/Pods-akumina-ios-sampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		7A0C7C5BE16CDA62497EF8A3 /* Pods-akumina-ios-sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-akumina-ios-sample.debug.xcconfig"; path = "Target Support Files/Pods-akumina-ios-sample/Pods-akumina-ios-sample.debug.xcconfig"; sourceTree = "<group>"; };
+		B1627C2E0B9DA99244304224 /* Pods-akumina-ios-sample-akumina-ios-sampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-akumina-ios-sample-akumina-ios-sampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-akumina-ios-sample-akumina-ios-sampleUITests/Pods-akumina-ios-sample-akumina-ios-sampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CDF40C91542A18AAE761E4DF /* Pods_akumina_ios_sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_akumina_ios_sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFEFA9E4F882732E46726353 /* Pods_akumina_ios_sampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_akumina_ios_sampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA99B8E9DACA6B0FDC10957F /* Pods_akumina_ios_sample_akumina_ios_sampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_akumina_ios_sample_akumina_ios_sampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5E89E3E0C448E684D03283C /* Pods-akumina-ios-sampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-akumina-ios-sampleTests.debug.xcconfig"; path = "Target Support Files/Pods-akumina-ios-sampleTests/Pods-akumina-ios-sampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04993ADC29F00852005D5E16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50E15C337691ECD9D8256427 /* Pods_akumina_ios_sample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04993AF229F00854005D5E16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA5CEDE65CE6F5EE0A56A2FC /* Pods_akumina_ios_sampleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04993AFC29F00854005D5E16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59CB03008E58ADFE1462964C /* Pods_akumina_ios_sample_akumina_ios_sampleUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04993AD629F00852005D5E16 = {
+			isa = PBXGroup;
+			children = (
+				04993AE129F00852005D5E16 /* akumina-ios-sample */,
+				04993AF829F00854005D5E16 /* akumina-ios-sampleTests */,
+				04993B0229F00854005D5E16 /* akumina-ios-sampleUITests */,
+				04993AE029F00852005D5E16 /* Products */,
+				3AB74B3CD183272162C27019 /* Pods */,
+				B450F9C39039631B3C9A02BC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04993AE029F00852005D5E16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04993ADF29F00852005D5E16 /* akumina-ios-sample.app */,
+				04993AF529F00854005D5E16 /* akumina-ios-sampleTests.xctest */,
+				04993AFF29F00854005D5E16 /* akumina-ios-sampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04993AE129F00852005D5E16 /* akumina-ios-sample */ = {
+			isa = PBXGroup;
+			children = (
+				04993AE229F00852005D5E16 /* AppDelegate.swift */,
+				04993AE429F00852005D5E16 /* SceneDelegate.swift */,
+				04993AE629F00852005D5E16 /* ViewController.swift */,
+				04993AE829F00852005D5E16 /* Main.storyboard */,
+				04993AEB29F00854005D5E16 /* Assets.xcassets */,
+				04993AED29F00854005D5E16 /* LaunchScreen.storyboard */,
+				04993AF029F00854005D5E16 /* Info.plist */,
+			);
+			path = "akumina-ios-sample";
+			sourceTree = "<group>";
+		};
+		04993AF829F00854005D5E16 /* akumina-ios-sampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				04993AF929F00854005D5E16 /* akumina_ios_sampleTests.swift */,
+			);
+			path = "akumina-ios-sampleTests";
+			sourceTree = "<group>";
+		};
+		04993B0229F00854005D5E16 /* akumina-ios-sampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04993B0329F00854005D5E16 /* akumina_ios_sampleUITests.swift */,
+				04993B0529F00854005D5E16 /* akumina_ios_sampleUITestsLaunchTests.swift */,
+			);
+			path = "akumina-ios-sampleUITests";
+			sourceTree = "<group>";
+		};
+		3AB74B3CD183272162C27019 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A0C7C5BE16CDA62497EF8A3 /* Pods-akumina-ios-sample.debug.xcconfig */,
+				0B2316E0DB00019A6F85772C /* Pods-akumina-ios-sample.release.xcconfig */,
+				B1627C2E0B9DA99244304224 /* Pods-akumina-ios-sample-akumina-ios-sampleUITests.debug.xcconfig */,
+				1D3AE6E130451293573E2D17 /* Pods-akumina-ios-sample-akumina-ios-sampleUITests.release.xcconfig */,
+				E5E89E3E0C448E684D03283C /* Pods-akumina-ios-sampleTests.debug.xcconfig */,
+				636465BD9C467E7E01A6EB5E /* Pods-akumina-ios-sampleTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B450F9C39039631B3C9A02BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDF40C91542A18AAE761E4DF /* Pods_akumina_ios_sample.framework */,
+				DA99B8E9DACA6B0FDC10957F /* Pods_akumina_ios_sample_akumina_ios_sampleUITests.framework */,
+				CFEFA9E4F882732E46726353 /* Pods_akumina_ios_sampleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04993ADE29F00852005D5E16 /* akumina-ios-sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04993B0929F00854005D5E16 /* Build configuration list for PBXNativeTarget "akumina-ios-sample" */;
+			buildPhases = (
+				920E052827E313B4C449C0FE /* [CP] Check Pods Manifest.lock */,
+				04993ADB29F00852005D5E16 /* Sources */,
+				04993ADC29F00852005D5E16 /* Frameworks */,
+				04993ADD29F00852005D5E16 /* Resources */,
+				30449229EC5BBF2DB81A1DBC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "akumina-ios-sample";
+			productName = "akumina-ios-sample";
+			productReference = 04993ADF29F00852005D5E16 /* akumina-ios-sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04993AF429F00854005D5E16 /* akumina-ios-sampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04993B0C29F00854005D5E16 /* Build configuration list for PBXNativeTarget "akumina-ios-sampleTests" */;
+			buildPhases = (
+				880915AC39DDD03BA88F9521 /* [CP] Check Pods Manifest.lock */,
+				04993AF129F00854005D5E16 /* Sources */,
+				04993AF229F00854005D5E16 /* Frameworks */,
+				04993AF329F00854005D5E16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04993AF729F00854005D5E16 /* PBXTargetDependency */,
+			);
+			name = "akumina-ios-sampleTests";
+			productName = "akumina-ios-sampleTests";
+			productReference = 04993AF529F00854005D5E16 /* akumina-ios-sampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04993AFE29F00854005D5E16 /* akumina-ios-sampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04993B0F29F00854005D5E16 /* Build configuration list for PBXNativeTarget "akumina-ios-sampleUITests" */;
+			buildPhases = (
+				2E750B06B2B0EA5739552011 /* [CP] Check Pods Manifest.lock */,
+				04993AFB29F00854005D5E16 /* Sources */,
+				04993AFC29F00854005D5E16 /* Frameworks */,
+				04993AFD29F00854005D5E16 /* Resources */,
+				C4F968169E8196933DF4770C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04993B0129F00854005D5E16 /* PBXTargetDependency */,
+			);
+			name = "akumina-ios-sampleUITests";
+			productName = "akumina-ios-sampleUITests";
+			productReference = 04993AFF29F00854005D5E16 /* akumina-ios-sampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04993AD729F00852005D5E16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					04993ADE29F00852005D5E16 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					04993AF429F00854005D5E16 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 04993ADE29F00852005D5E16;
+					};
+					04993AFE29F00854005D5E16 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 04993ADE29F00852005D5E16;
+					};
+				};
+			};
+			buildConfigurationList = 04993ADA29F00852005D5E16 /* Build configuration list for PBXProject "akumina-ios-sample" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04993AD629F00852005D5E16;
+			productRefGroup = 04993AE029F00852005D5E16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04993ADE29F00852005D5E16 /* akumina-ios-sample */,
+				04993AF429F00854005D5E16 /* akumina-ios-sampleTests */,
+				04993AFE29F00854005D5E16 /* akumina-ios-sampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04993ADD29F00852005D5E16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04993AEF29F00854005D5E16 /* LaunchScreen.storyboard in Resources */,
+				04993AEC29F00854005D5E16 /* Assets.xcassets in Resources */,
+				04993AEA29F00852005D5E16 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04993AF329F00854005D5E16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04993AFD29F00854005D5E16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E750B06B2B0EA5739552011 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-akumina-ios-sample-akumina-ios-sampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30449229EC5BBF2DB81A1DBC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-akumina-ios-sample/Pods-akumina-ios-sample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-akumina-ios-sample/Pods-akumina-ios-sample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-akumina-ios-sample/Pods-akumina-ios-sample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		880915AC39DDD03BA88F9521 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-akumina-ios-sampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		920E052827E313B4C449C0FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-akumina-ios-sample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4F968169E8196933DF4770C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-akumina-ios-sample-akumina-ios-sampleUITests/Pods-akumina-ios-sample-akumina-ios-sampleUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-akumina-ios-sample-akumina-ios-sampleUITests/Pods-akumina-ios-sample-akumina-ios-sampleUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-akumina-ios-sample-akumina-ios-sampleUITests/Pods-akumina-ios-sample-akumina-ios-sampleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04993ADB29F00852005D5E16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04993AE729F00852005D5E16 /* ViewController.swift in Sources */,
+				04993AE329F00852005D5E16 /* AppDelegate.swift in Sources */,
+				04993AE529F00852005D5E16 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04993AF129F00854005D5E16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04993AFA29F00854005D5E16 /* akumina_ios_sampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04993AFB29F00854005D5E16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04993B0429F00854005D5E16 /* akumina_ios_sampleUITests.swift in Sources */,
+				04993B0629F00854005D5E16 /* akumina_ios_sampleUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04993AF729F00854005D5E16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04993ADE29F00852005D5E16 /* akumina-ios-sample */;
+			targetProxy = 04993AF629F00854005D5E16 /* PBXContainerItemProxy */;
+		};
+		04993B0129F00854005D5E16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04993ADE29F00852005D5E16 /* akumina-ios-sample */;
+			targetProxy = 04993B0029F00854005D5E16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04993AE829F00852005D5E16 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04993AE929F00852005D5E16 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04993AED29F00854005D5E16 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04993AEE29F00854005D5E16 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04993B0729F00854005D5E16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04993B0829F00854005D5E16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04993B0A29F00854005D5E16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A0C7C5BE16CDA62497EF8A3 /* Pods-akumina-ios-sample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8BWHY3M2AN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "akumina-ios-sample/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobile.akumina.sample.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04993B0B29F00854005D5E16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B2316E0DB00019A6F85772C /* Pods-akumina-ios-sample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8BWHY3M2AN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "akumina-ios-sample/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobile.akumina.sample.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04993B0D29F00854005D5E16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5E89E3E0C448E684D03283C /* Pods-akumina-ios-sampleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8BWHY3M2AN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobile.akumina.sample.ios.akumina-ios-sampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/akumina-ios-sample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/akumina-ios-sample";
+			};
+			name = Debug;
+		};
+		04993B0E29F00854005D5E16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 636465BD9C467E7E01A6EB5E /* Pods-akumina-ios-sampleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8BWHY3M2AN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobile.akumina.sample.ios.akumina-ios-sampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/akumina-ios-sample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/akumina-ios-sample";
+			};
+			name = Release;
+		};
+		04993B1029F00854005D5E16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1627C2E0B9DA99244304224 /* Pods-akumina-ios-sample-akumina-ios-sampleUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8BWHY3M2AN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobile.akumina.sample.ios.akumina-ios-sampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "akumina-ios-sample";
+			};
+			name = Debug;
+		};
+		04993B1129F00854005D5E16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D3AE6E130451293573E2D17 /* Pods-akumina-ios-sample-akumina-ios-sampleUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8BWHY3M2AN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobile.akumina.sample.ios.akumina-ios-sampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "akumina-ios-sample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04993ADA29F00852005D5E16 /* Build configuration list for PBXProject "akumina-ios-sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04993B0729F00854005D5E16 /* Debug */,
+				04993B0829F00854005D5E16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04993B0929F00854005D5E16 /* Build configuration list for PBXNativeTarget "akumina-ios-sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04993B0A29F00854005D5E16 /* Debug */,
+				04993B0B29F00854005D5E16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04993B0C29F00854005D5E16 /* Build configuration list for PBXNativeTarget "akumina-ios-sampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04993B0D29F00854005D5E16 /* Debug */,
+				04993B0E29F00854005D5E16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04993B0F29F00854005D5E16 /* Build configuration list for PBXNativeTarget "akumina-ios-sampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04993B1029F00854005D5E16 /* Debug */,
+				04993B1129F00854005D5E16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04993AD729F00852005D5E16 /* Project object */;
+}

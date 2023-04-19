@@ -1,0 +1,6 @@
+framework module Pods_akumina_ios_sample {
+  umbrella header "Pods-akumina-ios-sample-umbrella.h"
+
+  export *
+  module * { export * }
+}

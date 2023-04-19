@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-akumina-ios-sample/Pods-akumina-ios-sample-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AkuminaAuthiOSLib/AkuminaAuthiOSLib.framework
+${BUILT_PRODUCTS_DIR}/MSAL/MSAL.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/AkuminaAuthiOSLib/IntuneMAMSwift.framework/IntuneMAMSwift
+${PODS_XCFRAMEWORKS_BUILD_DIR}/AkuminaAuthiOSLib/IntuneMAMSwiftStub.framework/IntuneMAMSwiftStub

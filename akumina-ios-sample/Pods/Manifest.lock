@@ -1,0 +1,22 @@
+PODS:
+  - AkuminaAuthiOSLib (0.1.28):
+    - MSAL
+  - MSAL (1.2.10):
+    - MSAL/app-lib (= 1.2.10)
+  - MSAL/app-lib (1.2.10)
+
+DEPENDENCIES:
+  - AkuminaAuthiOSLib
+
+SPEC REPOS:
+  trunk:
+    - AkuminaAuthiOSLib
+    - MSAL
+
+SPEC CHECKSUMS:
+  AkuminaAuthiOSLib: 03e5fda9aef5c23581c20269aa21361b8128acf1
+  MSAL: 770fb0326a468e8a69bae03b6cf288076a2df1c9
+
+PODFILE CHECKSUM: 1f1786762cdb29d3c01bcfd8ac37d4516d8f1944
+
+COCOAPODS: 1.12.0
