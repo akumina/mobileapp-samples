@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040D896A29F15510004C5616 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040D896929F15510004C5616 /* Constants.swift */; };
+		040D896C29F155B0004C5616 /* WebView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040D896B29F155B0004C5616 /* WebView.storyboard */; };
+		040D896E29F155D8004C5616 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040D896D29F155D8004C5616 /* WebViewController.swift */; };
+		049855E629F0205900F12749 /* image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049855E529F0205900F12749 /* image.xcassets */; };
 		04993AE329F00852005D5E16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04993AE229F00852005D5E16 /* AppDelegate.swift */; };
 		04993AE529F00852005D5E16 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04993AE429F00852005D5E16 /* SceneDelegate.swift */; };
 		04993AE729F00852005D5E16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04993AE629F00852005D5E16 /* ViewController.swift */; };
@@ -39,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		040D896929F15510004C5616 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		040D896B29F155B0004C5616 /* WebView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WebView.storyboard; sourceTree = "<group>"; };
+		040D896D29F155D8004C5616 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		049855E529F0205900F12749 /* image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = image.xcassets; sourceTree = "<group>"; };
 		04993ADF29F00852005D5E16 /* akumina-ios-sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "akumina-ios-sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04993AE229F00852005D5E16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04993AE429F00852005D5E16 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -125,6 +133,10 @@
 				04993AEB29F00854005D5E16 /* Assets.xcassets */,
 				04993AED29F00854005D5E16 /* LaunchScreen.storyboard */,
 				04993AF029F00854005D5E16 /* Info.plist */,
+				049855E529F0205900F12749 /* image.xcassets */,
+				040D896929F15510004C5616 /* Constants.swift */,
+				040D896B29F155B0004C5616 /* WebView.storyboard */,
+				040D896D29F155D8004C5616 /* WebViewController.swift */,
 			);
 			path = "akumina-ios-sample";
 			sourceTree = "<group>";
@@ -278,7 +290,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				040D896C29F155B0004C5616 /* WebView.storyboard in Resources */,
 				04993AEF29F00854005D5E16 /* LaunchScreen.storyboard in Resources */,
+				049855E629F0205900F12749 /* image.xcassets in Resources */,
 				04993AEC29F00854005D5E16 /* Assets.xcassets in Resources */,
 				04993AEA29F00852005D5E16 /* Main.storyboard in Resources */,
 			);
@@ -411,6 +425,8 @@
 				04993AE729F00852005D5E16 /* ViewController.swift in Sources */,
 				04993AE329F00852005D5E16 /* AppDelegate.swift in Sources */,
 				04993AE529F00852005D5E16 /* SceneDelegate.swift in Sources */,
+				040D896E29F155D8004C5616 /* WebViewController.swift in Sources */,
+				040D896A29F15510004C5616 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,6 +602,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "akumina-ios-sample/akumina-ios-sample.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8BWHY3M2AN;
@@ -616,6 +633,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "akumina-ios-sample/akumina-ios-sample.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8BWHY3M2AN;

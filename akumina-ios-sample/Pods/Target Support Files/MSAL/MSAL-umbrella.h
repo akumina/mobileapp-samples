@@ -22,6 +22,7 @@
 #import "MSALAuthenticationSchemeProtocol.h"
 #import "MSALAuthority.h"
 #import "MSALB2CAuthority.h"
+#import "MSALCIAMAuthority.h"
 #import "MSALClaimsRequest.h"
 #import "MSALDefinitions.h"
 #import "MSALDeviceInformation.h"

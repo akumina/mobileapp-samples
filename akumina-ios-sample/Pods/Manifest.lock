@@ -1,9 +1,9 @@
 PODS:
-  - AkuminaAuthiOSLib (0.1.28):
+  - AkuminaAuthiOSLib (0.1.29):
     - MSAL
-  - MSAL (1.2.10):
-    - MSAL/app-lib (= 1.2.10)
-  - MSAL/app-lib (1.2.10)
+  - MSAL (1.2.11):
+    - MSAL/app-lib (= 1.2.11)
+  - MSAL/app-lib (1.2.11)
 
 DEPENDENCIES:
   - AkuminaAuthiOSLib
@@ -14,8 +14,8 @@ SPEC REPOS:
     - MSAL
 
 SPEC CHECKSUMS:
-  AkuminaAuthiOSLib: 03e5fda9aef5c23581c20269aa21361b8128acf1
-  MSAL: 770fb0326a468e8a69bae03b6cf288076a2df1c9
+  AkuminaAuthiOSLib: 6797b42b5d7df42a77a59bd1d4df95bf9654f3df
+  MSAL: 629b2c27db5d25e47e0993b9a59652f9753f9252
 
 PODFILE CHECKSUM: 1f1786762cdb29d3c01bcfd8ac37d4516d8f1944
 
