@@ -1,0 +1,67 @@
+pool:
+  name: Azure Pipelines
+  demands: JDK
+
+#Your build pipeline references an undefined variable named ‘Parameters.wrapperScript’. Create or edit the build pipeline for this YAML file, define the variable on the Variables tab. See https://go.microsoft.com/fwlink/?linkid=865972
+#Your build pipeline references an undefined variable named ‘Parameters.tasks’. Create or edit the build pipeline for this YAML file, define the variable on the Variables tab. See https://go.microsoft.com/fwlink/?linkid=865972
+
+steps:
+- task: Gradle@2
+  displayName: 'gradlew build'
+  inputs:
+    gradleWrapperFile: '$(Parameters.wrapperScript)'
+    tasks: '$(Parameters.tasks)'
+    publishJUnitResults: false
+  enabled: false
+
+- script: 'gradle init'
+  workingDirectory: app
+  displayName: 'Gradle Init'
+  enabled: false
+
+- script: 'chmod +x gradlew && ./gradlew clean && ./gradlew assembleRelease '
+  displayName: 'Creating build android'
+
+- task: AndroidSigning@3
+  displayName: 'Signing and aligning APK file(s) **/*.apk'
+  inputs:
+    apksignerKeystoreFile: 'akumina-dev.keystore'
+    apksignerKeystorePassword: 'akumina123#'
+    apksignerKeystoreAlias: 'akumina-dev'
+    apksignerKeyPassword: 'akumina123#'
+
+- task: CopyFiles@2
+  displayName: 'Copy Files to: $(build.artifactstagingdirectory)'
+  inputs:
+    SourceFolder: '$(system.defaultworkingdirectory)'
+    Contents: '**/*.apk'
+    TargetFolder: '$(build.artifactstagingdirectory)'
+  condition: succeededOrFailed()
+
+- powershell: |
+   $projectName = 'app-release.apk'
+   $projectNewName = 'MobileApp-akumina-Android-MAM-$(Build.BuildNumber).apk'
+   
+   Get-ChildItem -File -Recurse -Path $(build.artifactstagingdirectory) "$projectName.*" | Rename-Item -NewName { $_.Name -replace "$projectName","$projectNewName" }
+  displayName: 'Rename build'
+
+- task: PublishBuildArtifacts@1
+  displayName: 'Publish Artifact: drop'
+  inputs:
+    PathtoPublish: '$(build.artifactstagingdirectory)'
+  condition: succeededOrFailed()
+
+- task: AppCenterTest@1
+  displayName: 'Test with Visual Studio App Center'
+  inputs:
+    appFile: '**/*.apk'
+  enabled: false
+  condition: succeededOrFailed()
+
+- task: AppCenterDistribute@2
+  displayName: 'Deploy **/*.apk to Visual Studio App Center'
+  inputs:
+    appFile: '**/*.apk'
+    symbolsIncludeParentDirectory: false
+  enabled: false
+  condition: succeededOrFailed()

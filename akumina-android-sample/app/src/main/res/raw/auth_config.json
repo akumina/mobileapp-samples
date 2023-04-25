@@ -1,0 +1,17 @@
+{
+  "client_id" : "b86cf6b1-745b-47ce-a3c1-912f7ee3d8ac",
+  "authorization_user_agent" : "DEFAULT",
+  "redirect_uri" : "msauth://com.mobile.vizient.test/BsPhA9mqjtcjYFrKdOSyH6P5Ozk=",
+  "broker_redirect_uri_registered": true,
+  "multiple_clouds_supported": true,
+  "authorities" : [
+    {
+    "type": "AAD",
+    "audience": {
+      "type": "AzureADMultipleOrgs",
+      "tenant_id": "15d05f6e-046b-4ed5-9ab8-4b6c25f719b5"
+      }
+    }
+  ],
+  "account_mode": "SINGLE"
+}

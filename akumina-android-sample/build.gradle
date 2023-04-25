@@ -1,0 +1,36 @@
+/*
+ * Copyright (c) Microsoft Corporation. All rights reserved.
+ * Licensed under the MIT License.
+ */
+
+buildscript {
+    
+    repositories {
+        google()
+        jcenter()
+        mavenCentral()  // Maven Central repository
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.4.0'
+        // Include the MAM build plugin and Javassist, which it depends on
+        classpath "org.javassist:javassist:3.22.0-GA"
+        classpath files("app/MAMSDK/com.microsoft.intune.mam.build.jar")
+        classpath 'com.google.gms:google-services:4.3.15'
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        mavenCentral()
+        maven {
+            url 'https://pkgs.dev.azure.com/MicrosoftDeviceSDK/DuoSDK-Public/_packaging/Duo-SDK-Feed/maven/v1'
+        }
+        maven { url 'https://jitpack.io' }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Akumina Sample</string>
+    <string name="err_auth">Authentication error, please try again</string>
+    <string name="loading">Loading</string>
+    <string name="login_with_msal">Login with MSAL</string>
+    <string name="login_with_msal_mam">Login with MAM</string>
+</resources>

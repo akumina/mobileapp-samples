@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <!--<item name="android:editTextBackground">@drawable/rn_edit_text_material</item>-->
+    </style>
+
+    <!-- Legacy Splash Screen Theme -->
+<!--    <style name="LegacySplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/legacy_splash_background</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>-->
+
+<!--    &lt;!&ndash; Splash Screen Theme (pre Android 12) &ndash;&gt;-->
+<!--    <style name="Theme.App.Starting" parent="Theme.SplashScreen.IconBackground">-->
+<!--        <item name="windowSplashScreenBackground">@color/ic_launcher_background</item>-->
+<!--        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>-->
+<!--        <item name="windowSplashScreenIconBackgroundColor">@color/yellow6</item>-->
+<!--        <item name="postSplashScreenTheme">@style/AppTheme</item>-->
+<!--    </style>-->
+
+    <style name="SplashTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="android:statusBarColor">@color/white</item>
+    </style>
+
+</resources>

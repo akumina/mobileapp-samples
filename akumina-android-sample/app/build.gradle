@@ -1,0 +1,97 @@
+/*
+ * Copyright (c) Microsoft Corporation. All rights reserved.
+ * Licensed under the MIT License.
+ */
+
+apply plugin: 'com.android.application'
+/*
+ * Apply the MAM SDK plugin to this project. This will perform Intune class replacements automatically, see
+ * https://docs.microsoft.com/en-us/intune/app-sdk-android#replace-classes-methods-and-activities-with-their-mam-equivalent
+ * for more information.
+ */
+apply plugin: 'com.microsoft.intune.mam'
+//apply plugin: 'com.google.gms.google-services'
+
+android {
+    namespace 'com.mobile.akumina.sample.test'
+    compileSdkVersion 33
+    defaultConfig {
+        applicationId "com.mobile.akumina.sample.test"
+        minSdkVersion 24
+        targetSdkVersion 33
+        versionCode 12
+        versionName "4.6.7"
+        multiDexEnabled true
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+
+    signingConfigs {
+        debug {
+            storeFile file('../debug.keystore')
+            storePassword 'android'
+            keyAlias 'androiddebugkey'
+            keyPassword 'android'
+        }
+        release {
+            if (project.hasProperty('MYAPP_UPLOAD_STORE_FILE')) {
+                storeFile file(MYAPP_UPLOAD_STORE_FILE)
+                storePassword MYAPP_UPLOAD_STORE_PASSWORD
+                keyAlias MYAPP_UPLOAD_KEY_ALIAS
+                keyPassword MYAPP_UPLOAD_KEY_PASSWORD
+            }
+        }
+    }
+
+    buildTypes {
+        debug {
+            signingConfig signingConfigs.debug
+        }
+        release {
+            signingConfig signingConfigs.release
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
+        }
+    }
+
+    lintOptions {
+        // Disabled because we don't care if this demo app shows up in a Google Search
+        disable 'GoogleAppIndexingWarning'
+        abortOnError false
+    }
+}
+
+dependencies {
+    implementation "androidx.appcompat:appcompat:1.6.1"
+    implementation "com.google.android.material:material:1.4.0"
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.1'
+    implementation 'com.android.volley:volley:1.2.1'
+    implementation platform('com.google.firebase:firebase-bom:31.2.0')
+
+    def lifecycle_version = '2.2.0'
+    implementation "androidx.lifecycle:lifecycle-extensions:$lifecycle_version"
+    implementation "androidx.lifecycle:lifecycle-viewmodel:$lifecycle_version"
+
+    def room_version = '2.2.5'
+    implementation "androidx.room:room-runtime:$room_version"
+    annotationProcessor "androidx.room:room-compiler:$room_version"
+
+    // Test helpers
+    testImplementation "androidx.room:room-testing:$room_version"
+    androidTestImplementation 'androidx.test:runner:1.4.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+    // Include the MAM SDK
+    implementation files('MAMSDK/Microsoft.Intune.MAM.SDK.aar')
+
+    // Include MSAL
+    implementation 'com.microsoft.identity.client:msal:2.0.8'
+
+    implementation "androidx.biometric:biometric:1.1.0"
+
+    implementation 'com.github.akumina:auth-android-lib:0.1.7'
+
+}
