@@ -25,15 +25,20 @@ class MSALUtils {
     var clientDetails: ClientDetails;
     var withIntune: Bool = false;
     
-    var completionHandler: (MSALResponse) -> Void  = {_ in MSALResponse()}
+    var completionHandler: (MSALResponse) -> Void  = {_ in }
+    
+    let dateFormatter = DateFormatter();
+    var loggingHandler: (String, Bool) -> Void = {_,_ in }
     
     typealias AccountCompletion = (MSALAccount?) -> Void
     
     private init(){
         clientDetails = ClientDetails();
+        dateFormatter.dateFormat = "dd MMM yyyy HH:mm:ss Z"
     }
     
-    public func initMSAL(parentViewController: UIViewController, clientDetails: ClientDetails, withIntune: Bool, completionHandler: @escaping (MSALResponse) -> Void ) throws {
+    public func initMSAL(parentViewController: UIViewController, clientDetails: ClientDetails, withIntune: Bool, completionHandler: @escaping (MSALResponse) -> Void , loggingHandler: @escaping (String, Bool) -> Void) throws {
+        self.loggingHandler = loggingHandler;
         self.completionHandler = completionHandler;
         self.parentViewController = parentViewController;
         self.withIntune = withIntune;
@@ -191,8 +196,8 @@ class MSALUtils {
         params.add(key: "id_token", value: result.idToken!);
         params.add(key: "access_token", value: result.accessToken)
         Constants.GRAPH_TOKEN = result.accessToken;
-        var date: Date? = result.expiresOn;
-        params.add(key: "expires_on", value: String(date!.timeIntervalSince1970 / 1000));
+        let date:  Date? =  result.expiresOn;
+        params.add(key: "expires_on", value: dateFormatter.string(from: date ?? Date() ));
         scope = firstScope.replacingOccurrences(of: "/.default", with: "");
         
         params.add(key: "scope", value: scope);
@@ -218,13 +223,7 @@ class MSALUtils {
     }
     
     func updateLogging(text : String, error: Bool) {
-        if(Constants.ROLL_BAR) {
-            if(error) {
-//                Rollbar.error(text)
-            }else {
-//                Rollbar.info(text)
-            }
-        }
+        self.loggingHandler(text, error)
         if Thread.isMainThread {
             print( text);
         } else {
@@ -282,8 +281,8 @@ class MSALUtils {
         params.add(key: "id_token", value: result.idToken!);
         params.add(key:"access_token",value: result.accessToken);
         Constants.SHAREPOINT_TOKEN = result.accessToken
-        var date: Date? = result.expiresOn;
-        params.add(key: "expires_on", value: String(date!.timeIntervalSince1970 / 1000));
+        let date:  Date? =  result.expiresOn;
+        params.add(key: "expires_on", value: dateFormatter.string(from: date ?? Date() ));
         let firstScope: String = clientDetails.sharePointURL;
         var scope = firstScope.replacingOccurrences(of: ".default", with: "");
         scope = firstScope.replacingOccurrences(of: "/.default", with: "");
@@ -301,7 +300,8 @@ class MSALUtils {
             return
         }
         let JSONString = String(data: jsonData, encoding: String.Encoding.ascii)!
-        print(JSONString);
+        
+        updateLogging(text: JSONString, error: false);
         
         let appAccount = AppSettings.getAccount();
         
@@ -313,9 +313,9 @@ class MSALUtils {
         request.httpMethod = "POST";
         request.httpBody = postData;
         request.setValue("application/json", forHTTPHeaderField: "Content-Type")
-        if(existingToken != "") {
+//        if(existingToken != "") {
             request.setValue(existingToken, forHTTPHeaderField: "x-akumina-auth-id");
-        }
+//        }
         URLSession.shared.dataTask(with: request) { data, response, error in
             guard error == nil else {
                 let errMsg = "Error: error calling POST " + self.clientDetails.appManagerURL.description;

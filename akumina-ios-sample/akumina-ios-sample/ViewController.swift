@@ -50,15 +50,19 @@ class ViewController: UIViewController {
                                                     ViewController.REDIRECT_URL, scopes:ViewController.MSAL_SCOPES, sharePointScope: ViewController.SHAREPOINT_SCOPE, appManagerURL: ViewController.APP_MANAGER_URL, tenantId: ViewController.TENENT_ID)
             if(mamLogin) {
                 
-                try  akuminaLib.authenticateWithMSALAndMAM(parentViewController: self, clientDetails: clientDetails) { result in
-                    
+                try  akuminaLib.authenticateWithMSALAndMAM(parentViewController: self, clientDetails: clientDetails, completionHandler: { result in
                     self.handleResponse(result: result);
-                }
+                    
+                },loggingHandler: {message, error in
+                    self.handleLogs(message: message, error: error);
+                });
             }else {
                 
-                try  akuminaLib.authenticateWithMSAL(parentViewController: self, clientDetails: clientDetails) { result in
-                    self.handleResponse(result: result);
-                }
+                try  akuminaLib.authenticateWithMSAL(parentViewController: self, clientDetails: clientDetails, completionHandler: { result in
+                    self.handleResponse(result: result)
+                },loggingHandler: { message, error in
+                    self.handleLogs(message: message, error: error)
+                })
             }
             
         }catch{
@@ -66,6 +70,9 @@ class ViewController: UIViewController {
         }
     }
     
+    func handleLogs(message: String, error: Bool) {
+        print(message);
+    }
     func handleResponse(result: MSALResponse) {
         if (result.error != nil) {
             let errorMsg = "Error while Auth \(String(describing: result.error))"
