@@ -94,19 +94,21 @@ class ViewController: UIViewController {
     }
     
     
-     func showWeb() {
-            let mainView = UIStoryboard(name: "WebView", bundle: nil);
-            let viewcontroller : WebViewController = mainView.instantiateViewController(withIdentifier: "webView") as! WebViewController
-            
-            if Thread.isMainThread {
-                viewcontroller.modalPresentationStyle = .fullScreen;
-                self.present(viewcontroller, animated: true);
-            }else {
-                DispatchQueue.main.async {
-                    viewcontroller.modalPresentationStyle = .fullScreen;
-                    self.present(viewcontroller, animated: true);
-                }
-            }
+    func showWeb() {
+        let mainView = UIStoryboard(name: "WebView", bundle: nil);
+        let viewcontroller : WebViewController = mainView.instantiateViewController(withIdentifier: "webView") as! WebViewController
+        
+        DispatchQueue.main.async {
+            viewcontroller.modalPresentationStyle = .fullScreen;
+            self.present(viewcontroller, animated: true);
         }
+        //            if Thread.isMainThread {
+        //                viewcontroller.modalPresentationStyle = .fullScreen;
+        //                self.present(viewcontroller, animated: true);
+        //            }else {
+        //
+        //            }
+    }
+    
 }
 
