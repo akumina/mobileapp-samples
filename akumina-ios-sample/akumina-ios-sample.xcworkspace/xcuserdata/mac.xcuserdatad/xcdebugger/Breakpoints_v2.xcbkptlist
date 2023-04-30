@@ -94,6 +94,21 @@
                   endingLineNumber = "54"
                   offsetFromSymbolStart = "52">
                </Location>
+               <Location
+                  uuid = "6E22AC34-1AB8-4DC2-ADA5-430A2D0C7DD4 - 18c85df481168b3a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (AkuminaAuthiOSLib.MSALResponse) -&gt; () in akumina_ios_sample.ViewController.doSign(mamLogin: Swift.Bool) -&gt; ()"
+                  moduleName = "akumina-ios-sample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/project/udai/mobileapp-samples/akumina-ios-sample/akumina-ios-sample/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "60">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -250,6 +265,21 @@
                   endingLineNumber = "69"
                   offsetFromSymbolStart = "1495">
                </Location>
+               <Location
+                  uuid = "38101223-52EF-49C6-8626-B204D25A203A - a98444611d10f4c7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "akumina_ios_sample.ViewController.doSign(mamLogin: Swift.Bool) -&gt; ()"
+                  moduleName = "akumina-ios-sample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/project/udai/mobileapp-samples/akumina-ios-sample/akumina-ios-sample/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "1660">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -327,6 +357,36 @@
                   startingLineNumber = "41"
                   endingLineNumber = "41"
                   offsetFromSymbolStart = "419">
+               </Location>
+               <Location
+                  uuid = "104B0033-2A4F-4EFE-BC8A-652F6DBE48C4 - 8c21b00a8a0cf012"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AkuminaAuthiOSLib.AkuminaLib.authenticateWithMSAL(parentViewController: __C.UIViewController, clientDetails: AkuminaAuthiOSLib.ClientDetails, completionHandler: (AkuminaAuthiOSLib.MSALResponse) -&gt; (), loggingHandler: (Swift.String, Swift.Bool) -&gt; ()) throws -&gt; ()"
+                  moduleName = "AkuminaAuthiOSLib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/project/udai/mobileapp-samples/akumina-ios-sample/Pods/AkuminaAuthiOSLib/AkuminaLib/Classes/AkuminaLib.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "268">
+               </Location>
+               <Location
+                  uuid = "104B0033-2A4F-4EFE-BC8A-652F6DBE48C4 - 8c21b00a8a0cf012"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AkuminaAuthiOSLib.AkuminaLib.authenticateWithMSAL(parentViewController: __C.UIViewController, clientDetails: AkuminaAuthiOSLib.ClientDetails, completionHandler: (AkuminaAuthiOSLib.MSALResponse) -&gt; (), loggingHandler: (Swift.String, Swift.Bool) -&gt; ()) throws -&gt; ()"
+                  moduleName = "AkuminaAuthiOSLib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/project/udai/mobileapp-samples/akumina-ios-sample/Pods/AkuminaAuthiOSLib/AkuminaLib/Classes/AkuminaLib.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "336">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -425,6 +485,38 @@
             endingLineNumber = "319"
             landmarkName = "callAkuminaPreAuth()"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FEFC34DF-95ED-47AF-9B2F-71EA6486C646 - 1070abbae6fa888c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AkuminaAuthiOSLib.MSALUtils.callAkuminaPreAuth() -&gt; ()"
+                  moduleName = "AkuminaAuthiOSLib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/project/udai/mobileapp-samples/akumina-ios-sample/Pods/AkuminaAuthiOSLib/AkuminaLib/Classes/msal/MSALUtils.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "319"
+                  endingLineNumber = "319"
+                  offsetFromSymbolStart = "2816">
+               </Location>
+               <Location
+                  uuid = "FEFC34DF-95ED-47AF-9B2F-71EA6486C646 - 1070abbae6fa888c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AkuminaAuthiOSLib.MSALUtils.callAkuminaPreAuth() -&gt; ()"
+                  moduleName = "AkuminaAuthiOSLib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/project/udai/mobileapp-samples/akumina-ios-sample/Pods/AkuminaAuthiOSLib/AkuminaLib/Classes/msal/MSALUtils.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "319"
+                  endingLineNumber = "319"
+                  offsetFromSymbolStart = "3371">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -441,6 +533,38 @@
             endingLineNumber = "325"
             landmarkName = "callAkuminaPreAuth()"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F8E86F0A-9FFF-45F5-A356-2B6E0190CBDB - f4b3157c56d688e1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in AkuminaAuthiOSLib.MSALUtils.callAkuminaPreAuth() -&gt; ()"
+                  moduleName = "AkuminaAuthiOSLib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/project/udai/mobileapp-samples/akumina-ios-sample/Pods/AkuminaAuthiOSLib/AkuminaLib/Classes/msal/MSALUtils.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "325"
+                  endingLineNumber = "325"
+                  offsetFromSymbolStart = "420">
+               </Location>
+               <Location
+                  uuid = "F8E86F0A-9FFF-45F5-A356-2B6E0190CBDB - f4b3157c56d688e1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in AkuminaAuthiOSLib.MSALUtils.callAkuminaPreAuth() -&gt; ()"
+                  moduleName = "AkuminaAuthiOSLib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/project/udai/mobileapp-samples/akumina-ios-sample/Pods/AkuminaAuthiOSLib/AkuminaLib/Classes/msal/MSALUtils.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "325"
+                  endingLineNumber = "325"
+                  offsetFromSymbolStart = "351">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -463,7 +587,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "08031CF7-FD1F-4299-8AF3-3B5FBE6F0480"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pods/AkuminaAuthiOSLib/AkuminaLib/Classes/msal/MSALUtils.swift"
@@ -473,6 +597,54 @@
             endingLineNumber = "305"
             landmarkName = "callAkuminaPreAuth()"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "18867B99-57E1-46EB-8819-8234EC556DEA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/AkuminaAuthiOSLib/AkuminaLib/Classes/msal/MSALUtils.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "303"
+            endingLineNumber = "303"
+            landmarkName = "callAkuminaPreAuth()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "18867B99-57E1-46EB-8819-8234EC556DEA - 1070abbae6fa969c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AkuminaAuthiOSLib.MSALUtils.callAkuminaPreAuth() -&gt; ()"
+                  moduleName = "AkuminaAuthiOSLib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/project/udai/mobileapp-samples/akumina-ios-sample/Pods/AkuminaAuthiOSLib/AkuminaLib/Classes/msal/MSALUtils.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "303"
+                  endingLineNumber = "303"
+                  offsetFromSymbolStart = "880">
+               </Location>
+               <Location
+                  uuid = "18867B99-57E1-46EB-8819-8234EC556DEA - 1070abbae6fa969c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AkuminaAuthiOSLib.MSALUtils.callAkuminaPreAuth() -&gt; ()"
+                  moduleName = "AkuminaAuthiOSLib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/project/udai/mobileapp-samples/akumina-ios-sample/Pods/AkuminaAuthiOSLib/AkuminaLib/Classes/msal/MSALUtils.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "303"
+                  endingLineNumber = "303"
+                  offsetFromSymbolStart = "900">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
