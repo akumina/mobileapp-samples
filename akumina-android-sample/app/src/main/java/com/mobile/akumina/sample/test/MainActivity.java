@@ -28,6 +28,7 @@ import com.akumina.android.auth.akuminalib.beans.ClientDetails;
 import com.akumina.android.auth.akuminalib.impl.AuthenticationHandler;
 import com.akumina.android.auth.akuminalib.listener.AkuminaTokenCallback;
 import com.akumina.android.auth.akuminalib.listener.ApplicationListener;
+import com.akumina.android.auth.akuminalib.listener.LoggingHandler;
 import com.akumina.android.auth.akuminalib.listener.SharePointAuthCallback;
 import com.akumina.android.auth.akuminalib.msal.AuthFile;
 import com.google.android.material.navigation.NavigationView;
@@ -88,9 +89,9 @@ public class MainActivity extends AppCompatActivity
     private void login(boolean mamLogin) {
 
         AkuminaLib akuminaLib = AkuminaLib.getInstance();
-        akuminaLib.setSharePointAuthCallback(new SharePointTokenListener());
-        akuminaLib.setAkuminaTokenCallback(new AkuminaTokenListener());
-
+        akuminaLib.addSharePointAuthCallback(new SharePointTokenListener());
+        akuminaLib.addAkuminaTokenCallback(new AkuminaTokenListener());
+        akuminaLib.addLoggingHandler(new AppLoggingHandler());
         AuthFile authFile = new AuthFile(R.raw.auth_config);
 
         ClientDetails clientDetails= new ClientDetails(URLS.AUTHORITY,URLS.CLIENT_ID,URLS.REDIRECT_URL,
@@ -107,6 +108,18 @@ public class MainActivity extends AppCompatActivity
         }catch (Exception e) {
             LOGGER.log(Level.SEVERE, "Error", e);
             showMessage("An Error Occurred during the sign-in");
+        }
+    }
+
+    private class AppLoggingHandler implements com.akumina.android.auth.akuminalib.listener.LoggingHandler {
+
+        @Override
+        public void handleMessage(String message, boolean error) {
+            if(error) {
+                LOGGER.log(Level.SEVERE, message);
+            }else {
+                LOGGER.log(Level.INFO, message);
+            }
         }
     }
 //    public void doSignIn() {
