@@ -14,4 +14,6 @@ class Constants {
     
     public static let WEB_APP_URL: String = "https://mysite.akumina.dev?preauth=";
     
+    public static let QUERY_URL = "https://graph.microsoft.com/v1.0/me";
+    
 }

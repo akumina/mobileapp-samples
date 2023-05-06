@@ -109,6 +109,36 @@
                   endingLineNumber = "54"
                   offsetFromSymbolStart = "60">
                </Location>
+               <Location
+                  uuid = "6E22AC34-1AB8-4DC2-ADA5-430A2D0C7DD4 - a98444611d10f6f7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "akumina_ios_sample.ViewController.doSign(mamLogin: Swift.Bool) -&gt; ()"
+                  moduleName = "akumina-ios-sample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/project/udai/mobileapp-samples/akumina-ios-sample/akumina-ios-sample/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "760">
+               </Location>
+               <Location
+                  uuid = "6E22AC34-1AB8-4DC2-ADA5-430A2D0C7DD4 - a98444611d10f6f7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "akumina_ios_sample.ViewController.doSign(mamLogin: Swift.Bool) -&gt; ()"
+                  moduleName = "akumina-ios-sample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/project/udai/mobileapp-samples/akumina-ios-sample/akumina-ios-sample/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "719">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -279,6 +309,36 @@
                   startingLineNumber = "69"
                   endingLineNumber = "69"
                   offsetFromSymbolStart = "1660">
+               </Location>
+               <Location
+                  uuid = "38101223-52EF-49C6-8626-B204D25A203A - a98444611d10f4c7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "akumina_ios_sample.ViewController.doSign(mamLogin: Swift.Bool) -&gt; ()"
+                  moduleName = "akumina-ios-sample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/project/udai/mobileapp-samples/akumina-ios-sample/akumina-ios-sample/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "1316">
+               </Location>
+               <Location
+                  uuid = "38101223-52EF-49C6-8626-B204D25A203A - a98444611d10f4c7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "akumina_ios_sample.ViewController.doSign(mamLogin: Swift.Bool) -&gt; ()"
+                  moduleName = "akumina-ios-sample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/project/udai/mobileapp-samples/akumina-ios-sample/akumina-ios-sample/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "1340">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -475,7 +535,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "FEFC34DF-95ED-47AF-9B2F-71EA6486C646"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pods/AkuminaAuthiOSLib/AkuminaLib/Classes/msal/MSALUtils.swift"
@@ -523,7 +583,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "F8E86F0A-9FFF-45F5-A356-2B6E0190CBDB"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pods/AkuminaAuthiOSLib/AkuminaLib/Classes/msal/MSALUtils.swift"
@@ -603,7 +663,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "18867B99-57E1-46EB-8819-8234EC556DEA"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pods/AkuminaAuthiOSLib/AkuminaLib/Classes/msal/MSALUtils.swift"
@@ -645,6 +705,565 @@
                   offsetFromSymbolStart = "900">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0EC0B12B-91E0-41B9-B994-8FDE44F0DD7D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "akumina-ios-sample/view/ProfileController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "viewDidAppear(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0EC0B12B-91E0-41B9-B994-8FDE44F0DD7D - a1d1b9be121c194e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "akumina_ios_sample.ProfileContoller.viewDidAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "akumina-ios-sample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/project/udai/mobileapp-samples/akumina-ios-sample/akumina-ios-sample/view/ProfileController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "1088">
+               </Location>
+               <Location
+                  uuid = "0EC0B12B-91E0-41B9-B994-8FDE44F0DD7D - a1d1b9be121c194e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "akumina_ios_sample.ProfileContoller.viewDidAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "akumina-ios-sample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/project/udai/mobileapp-samples/akumina-ios-sample/akumina-ios-sample/view/ProfileController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "1204">
+               </Location>
+               <Location
+                  uuid = "0EC0B12B-91E0-41B9-B994-8FDE44F0DD7D - 26fb6f8699dccd10"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool, Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in akumina_ios_sample.ProfileContoller.viewDidAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "akumina-ios-sample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/project/udai/mobileapp-samples/akumina-ios-sample/akumina-ios-sample/view/ProfileController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "163">
+               </Location>
+               <Location
+                  uuid = "0EC0B12B-91E0-41B9-B994-8FDE44F0DD7D - a1d1b9be121c1a32"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "akumina_ios_sample.ProfileContoller.viewDidAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "akumina-ios-sample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/project/udai/mobileapp-samples/akumina-ios-sample/akumina-ios-sample/view/ProfileController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "1088">
+               </Location>
+               <Location
+                  uuid = "0EC0B12B-91E0-41B9-B994-8FDE44F0DD7D - a1d1b9be121c1a32"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "akumina_ios_sample.ProfileContoller.viewDidAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "akumina-ios-sample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/project/udai/mobileapp-samples/akumina-ios-sample/akumina-ios-sample/view/ProfileController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "1204">
+               </Location>
+               <Location
+                  uuid = "0EC0B12B-91E0-41B9-B994-8FDE44F0DD7D - 26fb6f8699dcceac"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool, Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in akumina_ios_sample.ProfileContoller.viewDidAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "akumina-ios-sample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/project/udai/mobileapp-samples/akumina-ios-sample/akumina-ios-sample/view/ProfileController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "182">
+               </Location>
+               <Location
+                  uuid = "0EC0B12B-91E0-41B9-B994-8FDE44F0DD7D - 26fb6f8699dcceac"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool, Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in akumina_ios_sample.ProfileContoller.viewDidAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "akumina-ios-sample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/project/udai/mobileapp-samples/akumina-ios-sample/akumina-ios-sample/view/ProfileController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "201">
+               </Location>
+               <Location
+                  uuid = "0EC0B12B-91E0-41B9-B994-8FDE44F0DD7D - a1d1b9be121c1a32"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "akumina_ios_sample.ProfileContoller.viewDidAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "akumina-ios-sample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/project/udai/mobileapp-samples/akumina-ios-sample/akumina-ios-sample/view/ProfileController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "1081">
+               </Location>
+               <Location
+                  uuid = "0EC0B12B-91E0-41B9-B994-8FDE44F0DD7D - a1d1b9be121c1a32"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "akumina_ios_sample.ProfileContoller.viewDidAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "akumina-ios-sample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/project/udai/mobileapp-samples/akumina-ios-sample/akumina-ios-sample/view/ProfileController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "1197">
+               </Location>
+               <Location
+                  uuid = "0EC0B12B-91E0-41B9-B994-8FDE44F0DD7D - a1d1b9be121c1a11"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "akumina_ios_sample.ProfileContoller.viewDidAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "akumina-ios-sample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/project/udai/mobileapp-samples/akumina-ios-sample/akumina-ios-sample/view/ProfileController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "1098">
+               </Location>
+               <Location
+                  uuid = "0EC0B12B-91E0-41B9-B994-8FDE44F0DD7D - a1d1b9be121c1a11"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "akumina_ios_sample.ProfileContoller.viewDidAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "akumina-ios-sample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/project/udai/mobileapp-samples/akumina-ios-sample/akumina-ios-sample/view/ProfileController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "1214">
+               </Location>
+               <Location
+                  uuid = "0EC0B12B-91E0-41B9-B994-8FDE44F0DD7D - 26fb6f8699dccecd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool, Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in akumina_ios_sample.ProfileContoller.viewDidAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "akumina-ios-sample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/project/udai/mobileapp-samples/akumina-ios-sample/akumina-ios-sample/view/ProfileController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "246">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EDE643C9-C3DD-4AC3-8699-7FC17323B797"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "akumina-ios-sample/view/ProfileController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "viewDidAppear(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EDE643C9-C3DD-4AC3-8699-7FC17323B797 - 26fb6f8699dccecd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool, Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in akumina_ios_sample.ProfileContoller.viewDidAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "akumina-ios-sample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/project/udai/mobileapp-samples/akumina-ios-sample/akumina-ios-sample/view/ProfileController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "418">
+               </Location>
+               <Location
+                  uuid = "EDE643C9-C3DD-4AC3-8699-7FC17323B797 - 26fb6f8699dccecd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool, Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in akumina_ios_sample.ProfileContoller.viewDidAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "akumina-ios-sample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/project/udai/mobileapp-samples/akumina-ios-sample/akumina-ios-sample/view/ProfileController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "437">
+               </Location>
+               <Location
+                  uuid = "EDE643C9-C3DD-4AC3-8699-7FC17323B797 - 26fb6f8699dcceea"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool, Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in akumina_ios_sample.ProfileContoller.viewDidAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "akumina-ios-sample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/project/udai/mobileapp-samples/akumina-ios-sample/akumina-ios-sample/view/ProfileController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "482">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "13641CEE-CEF3-49E5-8B7E-B750CD5BDC02"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "akumina-ios-sample/view/ProfileController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "viewDidAppear(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "13641CEE-CEF3-49E5-8B7E-B750CD5BDC02 - 26fb6f8699dccf87"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool, Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in akumina_ios_sample.ProfileContoller.viewDidAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "akumina-ios-sample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/project/udai/mobileapp-samples/akumina-ios-sample/akumina-ios-sample/view/ProfileController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "2172">
+               </Location>
+               <Location
+                  uuid = "13641CEE-CEF3-49E5-8B7E-B750CD5BDC02 - 26fb6f8699dccf87"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool, Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in akumina_ios_sample.ProfileContoller.viewDidAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "akumina-ios-sample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/project/udai/mobileapp-samples/akumina-ios-sample/akumina-ios-sample/view/ProfileController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "2217">
+               </Location>
+               <Location
+                  uuid = "13641CEE-CEF3-49E5-8B7E-B750CD5BDC02 - 26fb6f8699dccfa4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool, Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in akumina_ios_sample.ProfileContoller.viewDidAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "akumina-ios-sample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/project/udai/mobileapp-samples/akumina-ios-sample/akumina-ios-sample/view/ProfileController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "2266">
+               </Location>
+               <Location
+                  uuid = "13641CEE-CEF3-49E5-8B7E-B750CD5BDC02 - 26fb6f8699dccfc5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool, Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in akumina_ios_sample.ProfileContoller.viewDidAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "akumina-ios-sample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/project/udai/mobileapp-samples/akumina-ios-sample/akumina-ios-sample/view/ProfileController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "2503">
+               </Location>
+               <Location
+                  uuid = "13641CEE-CEF3-49E5-8B7E-B750CD5BDC02 - 26fb6f8699dccfc5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool, Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in akumina_ios_sample.ProfileContoller.viewDidAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "akumina-ios-sample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/project/udai/mobileapp-samples/akumina-ios-sample/akumina-ios-sample/view/ProfileController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "2551">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9030F566-FB23-401E-972C-78CF8DE7BAE3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "akumina-ios-sample/view/ProfileController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "viewDidAppear(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9030F566-FB23-401E-972C-78CF8DE7BAE3 - 26fb6f8699dccfa4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool, Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in akumina_ios_sample.ProfileContoller.viewDidAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "akumina-ios-sample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/project/udai/mobileapp-samples/akumina-ios-sample/akumina-ios-sample/view/ProfileController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "2234">
+               </Location>
+               <Location
+                  uuid = "9030F566-FB23-401E-972C-78CF8DE7BAE3 - 26fb6f8699dccfc5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool, Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in akumina_ios_sample.ProfileContoller.viewDidAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "akumina-ios-sample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/project/udai/mobileapp-samples/akumina-ios-sample/akumina-ios-sample/view/ProfileController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "2404">
+               </Location>
+               <Location
+                  uuid = "9030F566-FB23-401E-972C-78CF8DE7BAE3 - 26fb6f8699dccfe2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool, Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in akumina_ios_sample.ProfileContoller.viewDidAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "akumina-ios-sample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/project/udai/mobileapp-samples/akumina-ios-sample/akumina-ios-sample/view/ProfileController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "2641">
+               </Location>
+               <Location
+                  uuid = "9030F566-FB23-401E-972C-78CF8DE7BAE3 - 26fb6f8699dccfe2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool, Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in akumina_ios_sample.ProfileContoller.viewDidAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "akumina-ios-sample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/project/udai/mobileapp-samples/akumina-ios-sample/akumina-ios-sample/view/ProfileController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "2689">
+               </Location>
+               <Location
+                  uuid = "9030F566-FB23-401E-972C-78CF8DE7BAE3 - 26fb6f8699dccf03"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool, Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in akumina_ios_sample.ProfileContoller.viewDidAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "akumina-ios-sample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/project/udai/mobileapp-samples/akumina-ios-sample/akumina-ios-sample/view/ProfileController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "2708">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A59413D3-DFB6-469E-A1BD-5A1280B512FB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "akumina-ios-sample/view/ProfileController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "parse(jsonData:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A59413D3-DFB6-469E-A1BD-5A1280B512FB - a1d1b9be121c1ab6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "akumina_ios_sample.ProfileContoller.viewDidAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "akumina-ios-sample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/project/udai/mobileapp-samples/akumina-ios-sample/akumina-ios-sample/view/ProfileController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "90">
+               </Location>
+               <Location
+                  uuid = "A59413D3-DFB6-469E-A1BD-5A1280B512FB - 86e02ba88398ba34"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "akumina_ios_sample.ProfileContoller.parse(jsonData: Foundation.Data) -&gt; ()"
+                  moduleName = "akumina-ios-sample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/project/udai/mobileapp-samples/akumina-ios-sample/akumina-ios-sample/view/ProfileController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "155">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "13D13374-C2E2-4385-BD1C-91F6B1FC45C4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "akumina-ios-sample/view/ProfileController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "parse(jsonData:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "13D13374-C2E2-4385-BD1C-91F6B1FC45C4 - a1d1b9be121c1af4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "akumina_ios_sample.ProfileContoller.viewDidAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "akumina-ios-sample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/project/udai/mobileapp-samples/akumina-ios-sample/akumina-ios-sample/view/ProfileController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "298">
+               </Location>
+               <Location
+                  uuid = "13D13374-C2E2-4385-BD1C-91F6B1FC45C4 - 86e02ba88398ba97"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "akumina_ios_sample.ProfileContoller.parse(jsonData: Foundation.Data) -&gt; ()"
+                  moduleName = "akumina-ios-sample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/project/udai/mobileapp-samples/akumina-ios-sample/akumina-ios-sample/view/ProfileController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "396">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CD65423E-3F73-491B-8D23-6B829FD6FF9D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "akumina-ios-sample/view/ProfileController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "parse(jsonData:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

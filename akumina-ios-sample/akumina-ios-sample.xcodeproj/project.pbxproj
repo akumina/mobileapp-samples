@@ -20,6 +20,13 @@
 		04993AFA29F00854005D5E16 /* akumina_ios_sampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04993AF929F00854005D5E16 /* akumina_ios_sampleTests.swift */; };
 		04993B0429F00854005D5E16 /* akumina_ios_sampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04993B0329F00854005D5E16 /* akumina_ios_sampleUITests.swift */; };
 		04993B0629F00854005D5E16 /* akumina_ios_sampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04993B0529F00854005D5E16 /* akumina_ios_sampleUITestsLaunchTests.swift */; };
+		04F5E6442A04C618007F973B /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F5E6432A04C618007F973B /* Profile.storyboard */; };
+		04F5E6462A04C632007F973B /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5E6452A04C632007F973B /* ProfileController.swift */; };
+		04F5E6482A04CDBA007F973B /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F5E6472A04CDBA007F973B /* Home.storyboard */; };
+		04F5E64A2A04CDF9007F973B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5E6492A04CDF9007F973B /* HomeViewController.swift */; };
+		04F5E64D2A04CECD007F973B /* UIUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5E64C2A04CECD007F973B /* UIUtils.swift */; };
+		04F5E64F2A04D750007F973B /* Error.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F5E64E2A04D750007F973B /* Error.storyboard */; };
+		04F5E6512A04D762007F973B /* ErrorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5E6502A04D762007F973B /* ErrorViewController.swift */; };
 		50E15C337691ECD9D8256427 /* Pods_akumina_ios_sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDF40C91542A18AAE761E4DF /* Pods_akumina_ios_sample.framework */; };
 		59CB03008E58ADFE1462964C /* Pods_akumina_ios_sample_akumina_ios_sampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA99B8E9DACA6B0FDC10957F /* Pods_akumina_ios_sample_akumina_ios_sampleUITests.framework */; };
 		EA5CEDE65CE6F5EE0A56A2FC /* Pods_akumina_ios_sampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFEFA9E4F882732E46726353 /* Pods_akumina_ios_sampleTests.framework */; };
@@ -61,6 +68,13 @@
 		04993B0329F00854005D5E16 /* akumina_ios_sampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = akumina_ios_sampleUITests.swift; sourceTree = "<group>"; };
 		04993B0529F00854005D5E16 /* akumina_ios_sampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = akumina_ios_sampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		04993B1229F00BB1005D5E16 /* akumina-ios-sample.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = "akumina-ios-sample.entitlements"; sourceTree = "<group>"; };
+		04F5E6432A04C618007F973B /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		04F5E6452A04C632007F973B /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		04F5E6472A04CDBA007F973B /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		04F5E6492A04CDF9007F973B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		04F5E64C2A04CECD007F973B /* UIUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIUtils.swift; sourceTree = "<group>"; };
+		04F5E64E2A04D750007F973B /* Error.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Error.storyboard; sourceTree = "<group>"; };
+		04F5E6502A04D762007F973B /* ErrorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorViewController.swift; sourceTree = "<group>"; };
 		0B2316E0DB00019A6F85772C /* Pods-akumina-ios-sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-akumina-ios-sample.release.xcconfig"; path = "Target Support Files/Pods-akumina-ios-sample/Pods-akumina-ios-sample.release.xcconfig"; sourceTree = "<group>"; };
 		1D3AE6E130451293573E2D17 /* Pods-akumina-ios-sample-akumina-ios-sampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-akumina-ios-sample-akumina-ios-sampleUITests.release.xcconfig"; path = "Target Support Files/Pods-akumina-ios-sample-akumina-ios-sampleUITests/Pods-akumina-ios-sample-akumina-ios-sampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		636465BD9C467E7E01A6EB5E /* Pods-akumina-ios-sampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-akumina-ios-sampleTests.release.xcconfig"; path = "Target Support Files/Pods-akumina-ios-sampleTests/Pods-akumina-ios-sampleTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -125,6 +139,8 @@
 		04993AE129F00852005D5E16 /* akumina-ios-sample */ = {
 			isa = PBXGroup;
 			children = (
+				04F5E64B2A04CEB7007F973B /* utils */,
+				04F5E6422A04C5FD007F973B /* view */,
 				04993B1229F00BB1005D5E16 /* akumina-ios-sample.entitlements */,
 				04993AE229F00852005D5E16 /* AppDelegate.swift */,
 				04993AE429F00852005D5E16 /* SceneDelegate.swift */,
@@ -156,6 +172,27 @@
 				04993B0529F00854005D5E16 /* akumina_ios_sampleUITestsLaunchTests.swift */,
 			);
 			path = "akumina-ios-sampleUITests";
+			sourceTree = "<group>";
+		};
+		04F5E6422A04C5FD007F973B /* view */ = {
+			isa = PBXGroup;
+			children = (
+				04F5E6432A04C618007F973B /* Profile.storyboard */,
+				04F5E6452A04C632007F973B /* ProfileController.swift */,
+				04F5E6472A04CDBA007F973B /* Home.storyboard */,
+				04F5E6492A04CDF9007F973B /* HomeViewController.swift */,
+				04F5E64E2A04D750007F973B /* Error.storyboard */,
+				04F5E6502A04D762007F973B /* ErrorViewController.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		04F5E64B2A04CEB7007F973B /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				04F5E64C2A04CECD007F973B /* UIUtils.swift */,
+			);
+			path = utils;
 			sourceTree = "<group>";
 		};
 		3AB74B3CD183272162C27019 /* Pods */ = {
@@ -290,6 +327,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04F5E6482A04CDBA007F973B /* Home.storyboard in Resources */,
+				04F5E64F2A04D750007F973B /* Error.storyboard in Resources */,
+				04F5E6442A04C618007F973B /* Profile.storyboard in Resources */,
 				040D896C29F155B0004C5616 /* WebView.storyboard in Resources */,
 				04993AEF29F00854005D5E16 /* LaunchScreen.storyboard in Resources */,
 				049855E629F0205900F12749 /* image.xcassets in Resources */,
@@ -427,6 +467,10 @@
 				04993AE529F00852005D5E16 /* SceneDelegate.swift in Sources */,
 				040D896E29F155D8004C5616 /* WebViewController.swift in Sources */,
 				040D896A29F15510004C5616 /* Constants.swift in Sources */,
+				04F5E64A2A04CDF9007F973B /* HomeViewController.swift in Sources */,
+				04F5E6462A04C632007F973B /* ProfileController.swift in Sources */,
+				04F5E6512A04D762007F973B /* ErrorViewController.swift in Sources */,
+				04F5E64D2A04CECD007F973B /* UIUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

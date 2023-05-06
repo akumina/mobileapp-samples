@@ -43,9 +43,9 @@ class ViewController: UIViewController {
     
     func doSign(mamLogin: Bool){
         do {
-            var akuminaLib:  AkuminaLib = AkuminaLib.instance;
+            let akuminaLib:  AkuminaLib = AkuminaLib.instance;
             
-            var clientDetails = try ClientDetails(authority: ViewController.AUTHORITY, clientId:
+            let clientDetails = try ClientDetails(authority: ViewController.AUTHORITY, clientId:
                                                     ViewController.CLIENT_ID, redirectUri:
                                                     ViewController.REDIRECT_URL, scopes:ViewController.MSAL_SCOPES, sharePointScope: ViewController.SHAREPOINT_SCOPE, appManagerURL: ViewController.APP_MANAGER_URL, tenantId: ViewController.TENENT_ID)
             if(mamLogin) {
@@ -66,7 +66,7 @@ class ViewController: UIViewController {
             }
             
         }catch{
-            print(error);
+            UIUtils.showError(error: error);
         }
     }
     
@@ -90,24 +90,13 @@ class ViewController: UIViewController {
         }
         print(result.token)
         Constants.TOKEN = result.token;
-        showWeb();
+        showHome();
     }
     
-    
-    func showWeb() {
-        let mainView = UIStoryboard(name: "WebView", bundle: nil);
-        let viewcontroller : WebViewController = mainView.instantiateViewController(withIdentifier: "webView") as! WebViewController
+
+    func showHome() {
+        UIUtils.showHome()
         
-        DispatchQueue.main.async {
-            viewcontroller.modalPresentationStyle = .fullScreen;
-            self.present(viewcontroller, animated: true);
-        }
-        //            if Thread.isMainThread {
-        //                viewcontroller.modalPresentationStyle = .fullScreen;
-        //                self.present(viewcontroller, animated: true);
-        //            }else {
-        //
-        //            }
     }
     
 }
