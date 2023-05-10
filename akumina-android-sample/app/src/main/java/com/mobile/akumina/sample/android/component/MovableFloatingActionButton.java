@@ -1,4 +1,4 @@
-package com.mobile.akumina.sample.test.component;
+package com.mobile.akumina.sample.android.component;
 
 import android.content.Context;
 import android.util.AttributeSet;

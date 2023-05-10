@@ -1,4 +1,4 @@
-package com.mobile.akumina.sample.test.activity;
+package com.mobile.akumina.sample.android.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,8 +8,8 @@ import android.webkit.WebViewClient;
 
 import com.akumina.android.auth.akuminalib.data.AppSettings;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.mobile.akumina.sample.test.R;
-import com.mobile.akumina.sample.test.utils.URLS;
+import com.mobile.akumina.sample.android.R;
+import com.mobile.akumina.sample.android.utils.URLS;
 
 public class WebActivity extends AppCompatActivity {
 

@@ -3,11 +3,7 @@
  * Licensed under the MIT License.
  */
 
-package com.mobile.akumina.sample.test;
-
-import static androidx.biometric.BiometricManager.BIOMETRIC_SUCCESS;
-import static com.mobile.akumina.sample.test.utils.URLS.MSAL_SCOPES;
-import static com.mobile.akumina.sample.test.utils.URLS.SHAREPOINT_SCOPE;
+package com.mobile.akumina.sample.android;
 
 import android.content.Context;
 import android.content.Intent;
@@ -24,30 +20,15 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.biometric.BiometricManager;
-import androidx.biometric.BiometricPrompt;
-import androidx.core.content.ContextCompat;
 
 import com.akumina.android.auth.akuminalib.AkuminaLib;
-import com.akumina.android.auth.akuminalib.beans.ClientDetails;
-import com.akumina.android.auth.akuminalib.impl.AuthenticationHandler;
-import com.akumina.android.auth.akuminalib.listener.AkuminaTokenCallback;
-import com.akumina.android.auth.akuminalib.listener.ApplicationListener;
-import com.akumina.android.auth.akuminalib.listener.LoggingHandler;
-import com.akumina.android.auth.akuminalib.listener.SharePointAuthCallback;
-import com.akumina.android.auth.akuminalib.msal.AuthFile;
 import com.google.android.material.navigation.NavigationView;
-import com.microsoft.identity.client.IAuthenticationResult;
-import com.microsoft.identity.client.IPublicClientApplication;
-import com.microsoft.identity.client.exception.MsalException;
-import com.mobile.akumina.sample.test.activity.ErrorActivity;
-import com.mobile.akumina.sample.test.activity.LoadingActivity;
-import com.mobile.akumina.sample.test.activity.WebActivity;
-import com.mobile.akumina.sample.test.utils.URLS;
+import com.mobile.akumina.sample.android.activity.HomeActivity;
+import com.mobile.akumina.sample.android.activity.LoadingActivity;
+import com.mobile.akumina.sample.android.utils.Utils;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
-import java.util.concurrent.Executor;
-import java.util.logging.Level;
 import java.util.logging.Logger;
 
 /**
@@ -79,11 +60,21 @@ public class MainActivity extends AppCompatActivity
         this.loginWithMAMButton = findViewById(R.id.loginWithMAM);
         this.loginWithMAMButton.setOnClickListener(view -> doSignIn(true));
 //        showButtons(Button.INVISIBLE);
+//        findViewById(R.id.signBtn).setOnClickListener(view -> doSignOut());
     }
 
     private Integer  hasBiometricCapability(Context  context)  {
         BiometricManager  biometricManager = BiometricManager.from(context);
         return biometricManager.canAuthenticate(BiometricManager.Authenticators.BIOMETRIC_WEAK | BiometricManager.Authenticators.BIOMETRIC_STRONG | BiometricManager.Authenticators.DEVICE_CREDENTIAL);
+    }
+    public  void doSignOut() {
+        new Thread(() -> {
+            try {
+                AkuminaLib.getInstance().signOut();
+            } catch (Exception e) {
+                Log.e("sign-out", "doSignOut: ", e);
+            }
+        }).start();
     }
     public  void doSignIn(boolean mamLogin) {
         LOGGER.info("Starting interactive auth");
@@ -110,10 +101,10 @@ public class MainActivity extends AppCompatActivity
 
     private void  showLoading(boolean mamLogin) {
         Intent intent = new Intent(getApplicationContext(), LoadingActivity.class);
+        intent.setFlags(intent.getFlags() | Intent.FLAG_ACTIVITY_NO_HISTORY);
         intent.putExtra("mamLogin", mamLogin);
         startActivity(intent);
     }
-
     private void printHashKey(Context pContext) {
         try {
             PackageInfo info = getPackageManager().getPackageInfo(getPackageName(), PackageManager.GET_SIGNATURES);

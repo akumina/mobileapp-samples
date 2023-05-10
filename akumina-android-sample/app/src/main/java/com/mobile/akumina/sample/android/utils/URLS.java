@@ -1,4 +1,4 @@
-package com.mobile.akumina.sample.test.utils;
+package com.mobile.akumina.sample.android.utils;
 
 public final class URLS {
 

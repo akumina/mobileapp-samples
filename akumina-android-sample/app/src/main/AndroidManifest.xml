@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" package="com.mobile.akumina.sample.test">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.mobile.akumina.sample.android">
     <!-- Required permissions -->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -14,7 +15,7 @@
     <uses-permission android:name="android.permission.READ_CONTACTS" />
 
     <application
-        android:name=".AkuminaApplication"
+        android:name="com.mobile.akumina.sample.android.AkuminaApplication"
         android:allowBackup="true"
         android:fullBackupContent="true"
         android:fullBackupOnly="true"
@@ -24,13 +25,22 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".activity.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ProfilesActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".activity.LoadingActivity"
+            android:exported="false" />
+        <activity
             android:name=".activity.WebActivity"
             android:exported="false" />
         <activity
             android:name=".activity.ErrorActivity"
             android:exported="false" />
         <activity
-            android:name=".SplashScreenActivity"
+            android:name="com.mobile.akumina.sample.android.SplashScreenActivity"
             android:exported="true"
             android:theme="@style/SplashTheme">
             <intent-filter>
@@ -72,13 +82,13 @@
                 <category android:name="android.intent.category.BROWSABLE" />
 
                 <data
-                    android:host="com.mobile.vizient.test"
-                    android:path="/BsPhA9mqjtcjYFrKdOSyH6P5Ozk="
+                    android:host="com.mobile.akumina.sample.android"
+                    android:path="/Xo8WBi6jzSxKDVR4drqm84yr9iU="
                     android:scheme="msauth" />
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name="com.mobile.akumina.sample.android.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.SEND" />
@@ -88,15 +98,6 @@
                 <data android:mimeType="text/plain" />
             </intent-filter>
         </activity>
-
-<!--        <service-->
-<!--            android:name=".notification.PushNotificationService"-->
-<!--            android:exported="false">-->
-<!--            <intent-filter>-->
-<!--                <action android:name="com.google.firebase.MESSAGING_EVENT" />-->
-<!--            </intent-filter>-->
-<!--        </service>-->
-
     </application>
 
 </manifest>

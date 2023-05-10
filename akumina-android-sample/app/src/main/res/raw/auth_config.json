@@ -1,9 +1,9 @@
 {
   "client_id" : "b86cf6b1-745b-47ce-a3c1-912f7ee3d8ac",
   "authorization_user_agent" : "DEFAULT",
-  "redirect_uri" : "msauth://com.mobile.vizient.test/BsPhA9mqjtcjYFrKdOSyH6P5Ozk=",
-  "broker_redirect_uri_registered": true,
-  "multiple_clouds_supported": true,
+  "redirect_uri" : "msauth://com.mobile.akumina.sample.android/Xo8WBi6jzSxKDVR4drqm84yr9iU=",
+  "broker_redirect_uri_registered": false,
+  "multiple_clouds_supported": false,
   "authorities" : [
     {
     "type": "AAD",

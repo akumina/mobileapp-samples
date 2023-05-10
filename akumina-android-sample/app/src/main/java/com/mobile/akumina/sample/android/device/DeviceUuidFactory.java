@@ -1,4 +1,4 @@
-package com.mobile.akumina.sample.test.device;
+package com.mobile.akumina.sample.android.device;
 
 import android.content.Context;
 import android.content.SharedPreferences;

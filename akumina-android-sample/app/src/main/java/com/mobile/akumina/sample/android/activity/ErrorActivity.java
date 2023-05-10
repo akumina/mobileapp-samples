@@ -1,4 +1,4 @@
-package com.mobile.akumina.sample.test.activity;
+package com.mobile.akumina.sample.android.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,8 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
 
-import com.mobile.akumina.sample.test.MainActivity;
-import com.mobile.akumina.sample.test.R;
+import com.mobile.akumina.sample.android.MainActivity;
+import com.mobile.akumina.sample.android.R;
 
 public class ErrorActivity extends AppCompatActivity {
 

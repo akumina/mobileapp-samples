@@ -3,7 +3,7 @@
  * Licensed under the MIT License.
  */
 
-package com.mobile.akumina.sample.test;
+package com.mobile.akumina.sample.android;
 
 import android.app.Application;
 

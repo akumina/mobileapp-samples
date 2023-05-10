@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.mobile.akumina.sample.test.activity.ErrorActivity">
+    tools:context="com.mobile.akumina.sample.android.activity.ErrorActivity">
 
     <ImageView
         android:id="@+id/imageView2"
@@ -16,7 +16,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/splash_background" />
 
-    <EditText
+    <TextView
         android:id="@+id/errorTxt"
         android:layout_width="326dp"
         android:layout_height="193dp"
@@ -24,6 +24,7 @@
         android:ems="10"
         android:gravity="start|top"
         android:inputType="textMultiLine"
+        android:textColor="@color/orange"
         app:layout_constraintBottom_toTopOf="@+id/homeButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"

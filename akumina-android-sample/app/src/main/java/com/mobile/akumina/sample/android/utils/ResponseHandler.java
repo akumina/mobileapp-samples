@@ -3,7 +3,7 @@
  * Licensed under the MIT License.
  */
 
-package com.mobile.akumina.sample.test.utils;
+package com.mobile.akumina.sample.android.utils;
 
 import com.android.volley.VolleyError;
 

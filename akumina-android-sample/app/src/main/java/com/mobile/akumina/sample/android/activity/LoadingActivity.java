@@ -1,7 +1,7 @@
-package com.mobile.akumina.sample.test.activity;
+package com.mobile.akumina.sample.android.activity;
 
-import static com.mobile.akumina.sample.test.utils.URLS.MSAL_SCOPES;
-import static com.mobile.akumina.sample.test.utils.URLS.SHAREPOINT_SCOPE;
+import static com.mobile.akumina.sample.android.utils.URLS.MSAL_SCOPES;
+import static com.mobile.akumina.sample.android.utils.URLS.SHAREPOINT_SCOPE;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -19,9 +19,9 @@ import com.akumina.android.auth.akuminalib.msal.AuthFile;
 import com.microsoft.identity.client.IAuthenticationResult;
 import com.microsoft.identity.client.IPublicClientApplication;
 import com.microsoft.identity.client.exception.MsalException;
-import com.mobile.akumina.sample.test.MainActivity;
-import com.mobile.akumina.sample.test.R;
-import com.mobile.akumina.sample.test.utils.URLS;
+import com.mobile.akumina.sample.android.utils.URLS;
+import com.mobile.akumina.sample.android.R;
+
 
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -91,7 +91,7 @@ public class LoadingActivity extends AppCompatActivity {
         @Override
         public void onSuccess(String s) {
             LOGGER.info("Got Token " + s);
-            Intent intent = new Intent(getApplicationContext(), WebActivity.class);
+            Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
             startActivity(intent);
         }
 

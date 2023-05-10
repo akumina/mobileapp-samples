@@ -1,4 +1,4 @@
-package com.mobile.akumina.sample.test;
+package com.mobile.akumina.sample.android;
 
 import androidx.appcompat.app.AppCompatActivity;
 
